@@ -34,8 +34,8 @@ const Table = () => {
                         <td>15kg</td>
                     </tr>
                     <tr>
-                        <th className="cursor" scope="row">3</th>
-                        <td onClick={() => {
+                        <th  scope="row">3</th>
+                        <td className="cursor" onClick={() => {
                             setImage('cow')
                         }}>cow</td>
                         <td>07/04/2024</td>
